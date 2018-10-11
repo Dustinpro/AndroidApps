@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.dustin.apythonquiz.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"
+            android:text="@string/welcome"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/python" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/q1_text_view"
+            style="@style/TextStyle1"
+            android:text="@string/q1"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/q1code_text_view"
+            style="@style/TextStyle2"
+            android:text="@string/q1content"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/q1_1_text_view"
+            style="@style/TextStyle1"
+            android:layout_marginTop="8dp"
+            android:text="@string/q1_1"
+            android:textColor="@android:color/black" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/a1_radio_button"
+                style="@style/UniversalStyle"
+                android:layout_marginTop="8dp"
+                android:text="@string/A1" />
+
+            <RadioButton
+                android:id="@+id/b1_radio_button"
+                style="@style/UniversalStyle"
+                android:text="@string/B1" />
+
+            <RadioButton
+                android:id="@+id/c1_radio_button"
+                style="@style/UniversalStyle"
+                android:text="@string/C1" />
+
+            <RadioButton
+                android:id="@+id/d1_radio_button"
+                style="@style/UniversalStyle"
+                android:text="@string/D1" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q2_text_view"
+            style="@style/TextStyle1"
+            android:text="@string/q2"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/q2code_text_view"
+            style="@style/TextStyle2"
+            android:text="@string/q2content"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/q2_1_text_view"
+            style="@style/TextStyle1"
+            android:layout_marginTop="8dp"
+            android:text="@string/q2_1"
+            android:textColor="@android:color/black" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/a2_radio_button"
+                style="@style/UniversalStyle"
+                android:layout_marginTop="8dp"
+                android:text="@string/A2" />
+
+            <RadioButton
+                android:id="@+id/b2_radio_button"
+                style="@style/UniversalStyle"
+                android:text="@string/B2" />
+
+            <RadioButton
+                android:id="@+id/c2_radio_button"
+                style="@style/UniversalStyle"
+                android:text="@string/C2" />
+
+            <RadioButton
+                android:id="@+id/d2_radio_button"
+                style="@style/UniversalStyle"
+                android:text="@string/D2" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q3_text_view"
+            style="@style/TextStyle1"
+            android:text="@string/q3"
+            android:textColor="@android:color/black" />
+
+        <CheckBox
+            android:id="@+id/num1_checkbox"
+            style="@style/UniversalStyle"
+            android:text="@string/A3" />
+
+        <CheckBox
+            android:id="@+id/num2_checkbox"
+            style="@style/UniversalStyle"
+            android:text="@string/B3" />
+
+        <CheckBox
+            android:id="@+id/num3_checkbox"
+            style="@style/UniversalStyle"
+            android:text="@string/C3" />
+
+        <CheckBox
+            android:id="@+id/num4_checkbox"
+            style="@style/UniversalStyle"
+            android:text="@string/D3" />
+
+        <TextView
+            android:id="@+id/q4_text_view"
+            style="@style/TextStyle1"
+            android:text="@string/q4"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/q4code_text_view"
+            style="@style/TextStyle2"
+            android:text="@string/q4content"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/q4_1_text_view"
+            style="@style/TextStyle1"
+            android:layout_marginTop="8dp"
+            android:text="@string/q4_1"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/description_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:hint="@string/error"
+            android:inputType="textCapWords" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/text_view"
+            style="@style/TextStyle1"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="@string/show"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:onClick="handle"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+</ScrollView>

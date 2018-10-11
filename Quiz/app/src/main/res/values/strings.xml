@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="title">Android Studio小测验</string>
+    <string name="Q1">1. 在布局文件中创建文本组件应用：</string>
+    <string name="A1a">&#60;textView</string>
+    <string name="A1b">&#60;TextView</string>
+    <string name="A1c">&#60;textview</string>
+    <string name="Q2">2. 可用于存放颜色的文件是：</string>
+    <string name="A2a">color.xml</string>
+    <string name="A2b">string.xml</string>
+    <string name="A2c">style.xml</string>
+    <string name="Q3">3. 含有“相对父视图方位”属性的是：</string>
+    <string name="A3a">线性视图</string>
+    <string name="A3b">相对视图</string>
+    <string name="Q4">4. 这个应用可能会用到哪些视图？</string>
+    <string name="A4a">滚动视图</string>
+    <string name="A4b">线性视图</string>
+    <string name="A4c">相对视图</string>
+    <string name="Q5">5. 在MainActivity.java中写一段代码，创建一个名为str的字符串，其值与string.xml中名为hello的字符串hi相同。</string>
+    <string name="Q5hint">你的答案</string>
+    <string name="A5">String str = getString(R.string.hello);</string>
+    <string name="Submit">提交</string>
+    <string name="Reset">重做</string>
+    <string name="msg1">你的分数是</string>
+    <string name="msg2">/10.</string>
+    <string name="intro">得分细则：本次测验满分为十分。1&#8211;3题为单选题，其中1、2题分值为两分，第3题为一分；第4题为多选题，全部选对得两分，部分选对得一分，有错选不得分；第五题为简答题，完全正确得三分。</string>
+
+</resources>

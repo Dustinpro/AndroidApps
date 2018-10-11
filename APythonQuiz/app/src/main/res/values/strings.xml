@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Quiz Time</string>
+    <string name="welcome">A Quiz on Python Basics</string>
+    <string name="q1">Question 1. (5 points)\nConsider the following Python program:</string>
+    <string name="q1content">e = list( range( 0,10,2 ) )\nd = [ \'0\',\'0\',\'0\',\'0\' ]\nfor i in range( 0,len(e) ):\n&#160;&#160;&#160;&#160;d[ i%4 ] += str( e[ i ] )\nx = d[ 1 ]</string>
+    <string name="q1_1">What is the final type of x?</string>
+    <string name="A1">str</string>
+    <string name="B1">list</string>
+    <string name="C1">int</string>
+    <string name="D1">dict</string>
+    <string name="q2">Question 2. (5 points)\nConsider the following Python program:</string>
+    <string name="q2content">s = \'STOOGE\'\nx = \' \'\nfor i in range( 0,len( s ) ):\n&#160;&#160;&#160;&#160;if ( i>1 ) and ( i&#060;4 ):\n&#160;&#160;&#160;&#160;x = s[ i:i+2 ] + x</string>
+    <string name="q2_1">What is the value of x after this program is executed?</string>
+    <string name="A2">\'OGOO\'</string>
+    <string name="B2">\'OOTO\'</string>
+    <string name="C2">\'OO\'</string>
+    <string name="D2">\'TO\'</string>
+    <string name="q3">Question 3. (5 points)\nWhich of the following are keywords of Python?</string>
+    <string name="A3">lambda</string>
+    <string name="B3">new</string>
+    <string name="C3">import</string>
+    <string name="D3">elif</string>
+    <string name="q4">Question 4. (5 points)\nConsider the following Python program:</string>
+    <string name="q4content">d = { \"M\":1,\"A\":1,\"R\":2,\"X\":1 } \nfor c in \"HARPO\":\n&#160;&#160;&#160;&#160;print( d[ c ] + \'-\')</string>
+    <string name="q4_1">What kind of exception will this program throw?</string>
+    <string name="ans">KeyError</string>
+    <string name="error">A kind of error (camel case)</string>
+    <string name="show">Are you ready to submit your answer?</string>
+    <string name="submit">submit</string>
+    <string name="feedback1">You achieve&#160;</string>
+    <string name="feedback2">&#160;points out of 20 points.</string>
+</resources>
